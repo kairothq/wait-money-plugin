@@ -1,14 +1,22 @@
 ---
-description: Install the Adline client. A signed one-line installer adds a sponsored line to the Claude Code status line and starts accruing earnings. macOS and Linux, Node 18+.
+description: Install the Adline client. A signed one-line installer adds a sponsored line to the Claude Code status line and starts accruing earnings. macOS, Linux, and Windows (beta), Node 18+.
 disable-model-invocation: true
 ---
 
 Install the Adline client for the user.
 
-1. Run the signed installer (ed25519 signature + per-file sha256 verification happen inside the script):
+1. Run the signed installer (ed25519 signature + per-file sha256 verification happen inside the script).
+
+   macOS / Linux:
 
    ```bash
    curl -fsSL https://adline-divys-projects-a4af20de.vercel.app/install.sh | sh
+   ```
+
+   Windows (beta, PowerShell):
+
+   ```powershell
+   irm https://adline-divys-projects-a4af20de.vercel.app/install.ps1 | iex
    ```
 
 2. Show the user the installer output. On success, tell them:
@@ -17,4 +25,4 @@ Install the Adline client for the user.
    - `adline pause` and `adline resume` toggle the ad line. `/adline:uninstall` removes everything.
    - Privacy: no prompts, code, file paths, or AI responses are ever collected. Details: https://adline-divys-projects-a4af20de.vercel.app/privacy
 
-3. If the installer reports Node older than 18, tell the user to upgrade Node and retry. If the platform is Windows, report that Adline currently supports macOS and Linux only. Do not work around either requirement.
+3. If the installer reports Node older than 18, tell the user to upgrade Node and retry. Do not work around the requirement. On Windows, remind the user the support is beta and a new terminal is needed after install (the PATH update applies to new shells).

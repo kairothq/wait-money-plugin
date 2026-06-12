@@ -1,6 +1,6 @@
 # Adline plugin for Claude Code
 
-Earn from your terminal. Adline puts one sponsored line in your Claude Code status line (with a live earnings ticker) and pays you a share of cleared ad revenue. macOS and Linux, Node 18+.
+Earn from your terminal. Adline puts one sponsored line in your Claude Code status line (with a live earnings ticker) and pays you a share of cleared ad revenue. macOS, Linux, and Windows (beta), Node 18+.
 
 ## Install
 

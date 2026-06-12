@@ -1,8 +1,8 @@
 {
   "name": "adline",
   "displayName": "Adline",
-  "version": "0.1.0",
-  "description": "Earn from your terminal. One sponsored line in the Claude Code status line; you get a share of cleared ad revenue. Install, link, check status, or uninstall the Adline client.",
+  "version": "0.1.1",
+  "description": "Earn from your terminal. One sponsored line in the Claude Code status line; you get a share of cleared ad revenue. Install, link, check status, or uninstall the Adline client. macOS, Linux, Windows (beta).",
   "author": { "name": "Adline", "url": "https://github.com/kairothq" },
   "homepage": "https://adline-divys-projects-a4af20de.vercel.app",
   "repository": "https://github.com/kairothq/adline-plugin",
