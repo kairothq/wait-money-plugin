@@ -1,11 +1,11 @@
 {
-  "name": "adline",
-  "displayName": "Adline",
+  "name": "wait-money",
+  "displayName": "wait.money",
   "version": "0.1.1",
-  "description": "Earn from your terminal. One sponsored line in the Claude Code status line; you get a share of cleared ad revenue. Install, link, check status, or uninstall the Adline client. macOS, Linux, Windows (beta).",
-  "author": { "name": "Adline", "url": "https://github.com/kairothq" },
-  "homepage": "https://adline-divys-projects-a4af20de.vercel.app",
-  "repository": "https://github.com/kairothq/adline-plugin",
+  "description": "Earn from your terminal. One sponsored line in the Claude Code status line; you get a share of cleared ad revenue. Install, link, check status, or uninstall the wait.money client. macOS, Linux, Windows (beta).",
+  "author": { "name": "wait.money", "url": "https://github.com/kairothq" },
+  "homepage": "https://wait.money",
+  "repository": "https://github.com/kairothq/wait-money-plugin",
   "license": "MIT",
   "keywords": ["statusline", "earnings", "sponsored", "ads"]
 }

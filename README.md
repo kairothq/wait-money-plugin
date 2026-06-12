@@ -1,15 +1,15 @@
-# Adline plugin for Claude Code
+# wait.money plugin for Claude Code
 
-Earn from your terminal. Adline puts one sponsored line in your Claude Code status line (with a live earnings ticker) and pays you a share of cleared ad revenue. macOS, Linux, and Windows (beta), Node 18+.
+Earn from your terminal. wait.money puts one sponsored line in your Claude Code status line (with a live earnings ticker) and pays you a share of cleared ad revenue. macOS, Linux, and Windows (beta), Node 18+.
 
 ## Install
 
 In Claude Code:
 
 ```
-/plugin marketplace add kairothq/adline-plugin
-/plugin install adline@adline
-/adline:install
+/plugin marketplace add kairothq/wait-money-plugin
+/plugin install wait-money@wait-money
+/wait-money:install
 ```
 
 The installer is signed (ed25519) with per-file sha256 verification, and the client self-updates with monotonic version checks.
@@ -18,16 +18,16 @@ The installer is signed (ed25519) with per-file sha256 verification, and the cli
 
 | Command | What it does |
 |---|---|
-| `/adline:install` | One-line signed install of the client |
-| `/adline:link` | Link this device's earnings to your Google account |
-| `/adline:status` | Version, paused/active, linked account, balance |
-| `/adline:uninstall` | Remove everything from this machine |
+| `/wait-money:install` | One-line signed install of the client |
+| `/wait-money:link` | Link this device's earnings to your Google account |
+| `/wait-money:status` | Version, paused/active, linked account, balance |
+| `/wait-money:uninstall` | Remove everything from this machine |
 
-The installed `adline` CLI also works directly: `adline status | pause | resume | spinner | uninstall`.
+The installed `waitmoney` CLI also works directly: `waitmoney status | pause | resume | spinner | uninstall`.
 
 ## Privacy
 
-Adline never collects prompts, source code, file paths, or AI responses. The event schema cannot carry them. Full policy: https://adline-divys-projects-a4af20de.vercel.app/privacy
+wait.money never collects prompts, source code, file paths, or AI responses. The event schema cannot carry them. Full policy: https://wait.money/privacy
 
 ## Notes
 
