@@ -1,0 +1,14 @@
+{
+  "name": "adline",
+  "owner": { "name": "Adline" },
+  "description": "Adline: the CLI-native ad marketplace. A sponsored line in your Claude Code status line; developers earn a share of cleared ad revenue.",
+  "plugins": [
+    {
+      "name": "adline",
+      "source": "./",
+      "description": "Install and manage the Adline client (signed installer, status, link, pause, uninstall).",
+      "category": "productivity",
+      "tags": ["statusline", "earnings"]
+    }
+  ]
+}
